@@ -1,0 +1,15 @@
+Algoritmo Exemplo 6.3
+	Var
+	Soma, i : inteiro
+	A : vetor[1...5] de inteiros
+Inicio
+Soma <- 0
+Para i <- 0 até 4 Faça
+		Ler(A[i])
+Fim-Para
+Para i <- 0 até 4 Faça
+	Se (A[i] mod 2) <> 0 Então	
+	 Soma <- Soma + A[i]
+	Fim-Se
+Fim-Para
+Mostrar("A soma é: ", Soma)
